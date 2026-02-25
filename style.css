@@ -31,15 +31,23 @@ img {
     align-items: center;
 }
 .navigation__menu {
-    width: 533px;
     display: flex;
     justify-content: space-between;
-    font-family: 'Gilroy-Medium';
     font-size: 14px;
 }
 .a__home {
     font-family: 'Gilroy-SemiBold';
     color: #F25822;
+    margin-right: 40px;
+}
+.color__rest-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.color__rest-links a {
+    font-family: 'Gilroy-Medium';
+    color: #000000;
 }
 
 
