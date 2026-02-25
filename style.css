@@ -27,25 +27,21 @@ img {
 }
 .navigation {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 337px;
 }
 .navigation__menu {
+    width: 533px;
     display: flex;
-    justify-content: center;
-}
-.a__home a {
-    font-family: 'Gilroy-SemiBold';
-    color: #F25822;
-    margin-right: 40px;
-}
-.link__rest a {
+    justify-content: space-between;
     font-family: 'Gilroy-Medium';
     font-size: 14px;
-    color: #000000;
-    margin-right: 40px;
 }
+.a__home {
+    font-family: 'Gilroy-SemiBold';
+    color: #F25822;
+}
+
 
 .main {
     margin-bottom: 162px;
@@ -72,29 +68,24 @@ img {
     margin-bottom: 37px;
 }
 .mainContent__leftSide-buttons {
-    max-height: 94px;
     display: flex;
-    gap: 72px;
+    gap: 25px;
     align-items: center;
-    max-width: 375px;
-}
-
-.btnLeft {
     font-family: 'Gilroy-Bold';
-    font-size: 15px;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+.btnLeft {
+    background: #F25822;
     border-radius: 50px;
     border: none;
-    cursor: pointer;
 }
 .btnRight {
-    font-family: Gilroy-Bold;
-    font-weight: 400;
-    font-size: 15px;
     color: #AAAAAA;
     border: none;
-    cursor: pointer;
     background: #FFFFFF;;
 }
+
 .logotips {
     margin-top: 100px;
     margin-bottom: 100px;
