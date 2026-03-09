@@ -42,7 +42,7 @@ body {
 .navigation__menu {
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    align-items: center;
 }
 .a__home {
     font-family: 'Gilroy-SemiBold';
@@ -57,6 +57,7 @@ body {
 .color__rest-links a {
     font-family: 'Gilroy-Medium';
     color: #000000;
+    font-size: 14px;
 }
 
 
