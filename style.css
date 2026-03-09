@@ -66,9 +66,10 @@ body {
 .HeadingContent {
     display: flex;
     justify-content: space-between;
+    gap: 39px;
 }
 .HeadingContent__leftSide {
-    max-width: 590px;
+    max-width: 522px;
     margin-bottom: 162px;
 }
 h1 {
@@ -83,6 +84,7 @@ h1 {
     font-size: 20px;
     color: #888888;
     margin-bottom: 37px;
+    max-width: 470px;
 }
 
 .btnOrange {
@@ -181,8 +183,6 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-
 }
 .card__illustrate h2 {
     margin: 25px 83px;
